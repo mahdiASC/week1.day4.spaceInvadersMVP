@@ -13,7 +13,12 @@
     - Create alien/enemy ships in the space above the spaceship.
     - When the user presses a particular key, projectiles should head from the spaceship and towards the direction of the alien ships.
     - When a projectile hits an alien ship, both the alien ship and the projectile should be removed from the canvas.
-5. **This is a MILESTONE project**
+5. *HINT: in the past, students have used the following tactic for detecting collision in p5.js:*
+   - Using distance between the objects. By drawing circles and using the radius between both ship and bullet, you can calculate if the two have collided.
+     - ![](https://www.onlinemath4all.com/images/external.png)
+     - You don’t even need to worry about the math! You can use [`.dist()`](https://p5js.org/reference/#/p5/dist) to find the distance between two coordinates. 
+     - [Example link](https://allstarcodeorg.github.io/collisionExample/) - [GitHub link](https://github.com/AllStarCodeOrg/collisionExample)
+6. **This is a MILESTONE project**
     - **Include the names of each member of your group as a comment at the top of the "sketch.js" file, along with the role each member played**
     - **This project will NOT be graded. It is simply used to gauge how our students are doing during the SI. Check out [this rubric](https://docs.google.com/document/d/18_SRRPzDNqv_xdeS6oVoNOp80B16-JC3oa4jzwy6GLk/edit?usp=sharing) for more details.**
 
